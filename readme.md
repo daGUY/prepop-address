@@ -12,11 +12,11 @@ Request the user's location and then prepopulate their address in a form.
 * Access to the [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/geocoding)
 
 ## Use
-Include jQuery and the `jquery.prepopAddress.js` plugin in your HTML:
+Include jQuery and the `jquery.prepopAddress.min.js` plugin in your HTML:
 
 ```javascript
 <script src="lib/jquery.min.js"></script>
-<script src="lib/jquery.prepopAddress.js"></script>
+<script src="lib/jquery.prepopAddress.min.js"></script>
 ```
 
 Add a form to your HTML with the four standard address fields (street address, city, state, and zip), along with a button to trigger the address population:
